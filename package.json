@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "env-cmd -f ./config/.env nodemon src/server.js",
+    "test": "",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.2",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "eslint": "^6.0.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "nodemon": "^1.19.1"
+  }
+}
